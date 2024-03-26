@@ -73,3 +73,20 @@ footer ul li {
 .video  {
     text-align: center;
 }
+h4 {
+    text-align: center;
+   
+}
+
+.disco {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    margin-left: 500px;
+    
+    align-items: center;
+    }
+ 
+.disco ol li {
+    margin-left: 15px;
+}
