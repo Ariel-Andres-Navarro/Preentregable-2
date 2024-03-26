@@ -10,8 +10,8 @@ body {
 }
 
 h1 {
-    color: white;
-    font-size: 30px;
+    color: black;
+    font-size:  40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -32,13 +32,13 @@ header  nav ul li {
 }
 
 header  nav ul li a {
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 a:hover {
-   color: black; 
+   color: white; 
 }
 
 footer {
@@ -74,8 +74,9 @@ footer ul li {
     text-align: center;
 }
 h4 {
-    text-align: center;
-   
+    margin-left: 600px;
+   margin-top: 50px;
+   text-decoration: underline;
 }
 
 .disco {
@@ -89,4 +90,13 @@ h4 {
  
 .disco ol li {
     margin-left: 15px;
+}
+.form {
+    margin-left: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.form h2 {
+    text-decoration: underline;
 }
