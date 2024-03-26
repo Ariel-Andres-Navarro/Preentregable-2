@@ -61,5 +61,12 @@ footer ul li {
 .paragraph {
     text-align: center;
     margin: 30px  ;
-    
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+} 
+.video  {
+    text-align: center;
 }
