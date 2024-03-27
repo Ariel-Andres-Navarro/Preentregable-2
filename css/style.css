@@ -20,6 +20,7 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 25px;
+    background-color: #404040;
 }
 
 header  nav ul {
@@ -46,11 +47,13 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px ;
-   
+    background-color: #404040;
 }
 footer p {
     font-size: 20px;
-
+    font-style: normal;
+    
+    color: black;
 }
 
 footer  ul {
@@ -76,7 +79,8 @@ footer ul li {
 h4 {
     margin-left: 600px;
    margin-top: 50px;
-   text-decoration: underline;
+  /* text-decoration: underline;*/
+  font-size: 30px;
 }
 
 .disco {
