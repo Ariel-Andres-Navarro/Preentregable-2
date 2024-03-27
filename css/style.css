@@ -95,7 +95,7 @@ h4 {
 .disco ol li {
     margin-left: 15px;
 }
-.form {
+/*.form {
     margin-left: 100px;
     font-weight: bold;
     display: flex;
@@ -103,4 +103,36 @@ h4 {
 }
 .form h2 {
     text-decoration: underline;
+}*/
+
+form {
+    margin: 0 auto ; 
+    width: 300px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #7d7a7a;
+    
+
+}
+.contact {
+    background-image: url(../img/in-mourning-band/foto-para-contacto.jpg);
+} 
+ 
+.contact h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.contact p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.text-contact {
+    color: rgb(12, 12, 12);
+    text-shadow: 1px  0px 0px black,
+    0px  1px 0px white,
+   -1px  0px 0px white,
+    0px -1px 0px white;
+    font-weight: lighter;
 }
