@@ -3,10 +3,15 @@
     padding: 0;
 }
 
-
-
 body {
     background-color: #686c5e;
+}
+
+.color-de-fondo-nav {
+    background-color: #817f7f;
+}
+.letra-del-nav {
+    font-size: 25px;
 }
 
 h1 {
@@ -20,7 +25,7 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 25px;
-    background-color: #404040;
+    background-color: #817f7f;
 }
 
 header  nav ul {
@@ -37,9 +42,9 @@ header  nav ul li a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 25px;
-}
+} 
 a:hover {
-   color: white; 
+    color: #686c5e;
 }
 
 footer {
@@ -64,46 +69,60 @@ footer  ul {
 footer ul li {
     text-decoration: none;
 }
+
+footer ul li a img:hover{
+    color: #404040; 
+ }
+
+.band {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
 .paragraph {
     text-align: center;
     margin: 30px  ;
 }
-
+/*
 .contenedor {
     display: flex;
     justify-content: center;
 } 
 .video  {
     text-align: center;
-}
+} */
+
 h4 {
-    margin-left: 600px;
-   margin-top: 50px;
+    margin: 50px auto 50px 100px;
+   /* margin-left: 600px;
+   margin-top: 50px;*/
   /* text-decoration: underline;*/
-  font-size: 30px;
-}
+  font-size: 30px;}
 
 .disco {
-    margin-top: 50px;
+    margin: 50px auto 50px auto;
+ /*   margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
     margin-left: 500px;
     
-    align-items: center;
+    align-items: center;*/
     }
  
 .disco ol li {
     margin-left: 15px;
 }
-/*.form {
+.form {
     margin-left: 100px;
     font-weight: bold;
     display: flex;
     justify-content: center;
 }
-.form h2 {
-    text-decoration: underline;
-}*/
+.form {
+    
+}
 
 form {
     margin: 0 auto ; 
@@ -112,7 +131,6 @@ form {
     border-radius: 5px;
     background-color: #7d7a7a;
     
-
 }
 .contact {
     background-image: url(../img/in-mourning-band/foto-para-contacto.jpg);
@@ -136,3 +154,7 @@ form {
     0px -1px 0px white;
     font-weight: lighter;
 }
+
+
+
+
